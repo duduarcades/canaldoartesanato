@@ -1,0 +1,65 @@
+#SimpleModal {
+  opacity: 0;
+  height: 0;
+  transition: opacity 0.4s;
+  display: block;
+  pointer-events: none; }
+  #SimpleModal:target {
+    opacity: 1;
+    height: auto;
+    pointer-events: auto; }
+  #SimpleModal:before {
+    content: "";
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0; }
+  #SimpleModal h2 {
+    background: #eee;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    color: #888;
+    font-size: 1.375em; }
+  #SimpleModal .close {
+    width: 50px;
+    height: 50px;
+    display: block;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 25px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 24px;
+    box-shadow: 0px 0px 5px black;
+    top: -24px;
+    right: -13px;
+    position: absolute;
+    z-index: 2;
+    transition: all .55s; }
+    #SimpleModal .close:hover {
+      background: #333;
+      color: #fff;
+      transition: all .55s;
+      transform: scale(1.2); }
+  #SimpleModal .content_modal {
+    position: fixed;
+    width: 90%;
+    max-width: 600px;
+    max-height: 600px;
+    background: #fff;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 6px; }
+  #SimpleModal .modal_edit .content_modal {
+    padding: 0; }
+
+/*# sourceMappingURL=simpleModalMobile.css.map */
