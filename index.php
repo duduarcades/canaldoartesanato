@@ -1,25 +1,17 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app lang="pt-br">
 <head>
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
-	<title></title>
+	<title>Canal do Artesanato</title>
 
 
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
 
-	<!-- jQuery library (served from Google) -->
-	<script src="js/jquery.js"></script>
-	<!-- bxSlider Javascript file -->
-	<script src="js/bxslider/bxslider.min.js"></script>
-	<!-- bxSlider CSS file -->
-
-	<!-- ANGULARJS -->
-	<script src="js/angular.min.js" type="text/javascript"></script>
-	<script src="js/script.js" type="text/javascript"></script>
+	
 	<link href="js/bxslider/bxslider.css" rel="stylesheet" />
 
 	<link rel="stylesheet" href="css/canalStyle/canalStyle.css">
@@ -60,6 +52,16 @@
 	<?php require_once "include/footer.php"; ?>
 	<!-- FIM MAIN FOOTER -->
 
+
+	<!-- jQuery library (served from Google) -->
+	<script src="js/jquery.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="js/bxslider/bxslider.min.js"></script>
+	<!-- bxSlider CSS file -->
+
+	<!-- ANGULARJS -->
+	<script src="js/angular.min.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
 	<script src="js/scriptBxslider.js" type="text/javascript"></script>
 
 </body>
